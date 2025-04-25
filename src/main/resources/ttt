@@ -1,0 +1,26 @@
+server.port=8081
+
+spring.datasource.url=jdbc:postgresql://localhost:5433/LabWork3_db
+spring.datasource.username=postgres
+spring.datasource.password=1234432nb
+
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+logging.level.org.hibernate.SQL=debug
+
+# === SMTP Mail.ru ????? STARTTLS (???? 587) ===
+spring.mail.host=smtp.mail.ru
+spring.mail.port=587
+spring.mail.username=malika.kinkhuzova.03@mail.ru
+spring.mail.password=jXrgcnTDeS5kAM6gYWjp
+
+# ?????????? ??????? smtp-???????? ? STARTTLS
+spring.mail.protocol=smtp
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+# ???????? ???????????
+spring.mail.properties.mail.smtp.ssl.trust=smtp.mail.ru
+
+# ??? ?????? SMTP????????
+spring.mail.properties.mail.debug=true
